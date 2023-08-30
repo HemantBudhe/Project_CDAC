@@ -1,0 +1,20 @@
+.sticky-homepage {
+    position: sticky;
+    top: 0;
+    background-color: white; /* You might need to adjust the background color */
+    z-index: 1000; /* Make sure it's on top of other content
+    /* padding: 20px; Add padding for spacing */ 
+}
+
+ .sticky-description {
+    position: sticky;
+    top: 110px; /* Add "px" to the top value */
+    /* background-color: white; You might need to adjust the background color */
+    z-index: 500;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid var(--color-border-faint);
+    flex: 2;
+    /* padding: 20px;Add padding for spacing */
+} 
